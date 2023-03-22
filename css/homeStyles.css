@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+
+    Author's Name: Raisha Kafle
+    student id: 0810177
+    Portfolio
+    Worked with Nihar Sadhu
+
+*/
+
+body {
+    background-color: beige;
+}
+
+header>h2{
+    text-transform: uppercase;
+    color:rgb(230, 172, 96);
+    text-shadow: 1.2px 1.2px rgb(51, 49, 49);
+}
+
+section >p{
+    background-color:  #f3f3cc;
+    color: #8b4513 ;
+}
+
+
+footer {
+
+    text-align: center;
+    background-color: #FFEBCD;
+}

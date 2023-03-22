@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/*
+
+    Author's Name: Raisha Kafle
+    student id: 0819379
+    Portfolio
+    Worked with Nihar Sadhu
+
+*/
+
+
+
+body {
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ h3 {
+    padding-top: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+p{
+    padding-left: 150px;
+    margin-top: 80px;
+    font-size: large;
+}
+
+
+section>p:nth-child(1){
+color:	#CD853F;
+}
+
+section>p:nth-child(2){
+    color:	#A0522D;
+    }
+
+p a{
+    color:	#CD853F;
+    
+}
+
+p a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+article:nth-child(1) {
+    width: 98%;
+    height: 500px;
+
+
+}
+
+article:nth-child(2) {
+
+    display: flex;
+    width: 98%;
+
+}
+
+article:nth-child(2) > section:nth-child(1) {
+
+    display: block;
+    width: 50%;
+    height:600px;
+}
+
+article:nth-child(2) > section:nth-child(2) {
+
+    width: 50%;
+    height: 600px;
+}
+
+article:nth-child(1) > section > p {
+ 
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 20px;
+    height:35px;
+    width: 300px
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: 20px;
+    height:80px;
+    width: 300px
+}
+
+
+footer {
+padding-top: 20px;
+padding-bottom: 20px;
+text-transform: uppercase;
+font-size: large;
+}
+
+@media screen and (max-width: 960px) {
+
+    
+
+    
+    article:nth-child(2) {
+
+        display: block;
+    }
+
+    article:nth-child(2) > section:nth-child(1)  {
+        margin: 10px 10px 10px 10px;
+        flex-basis:100%;
+        width: 95%;
+
+    }
+
+    article:nth-child(2) > section:nth-child(2)  {
+        flex-basis:100%;
+        margin: 10px 10px 10px 10px;
+        width:95%;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 560px) {
+
+
+    article:nth-child(1) > section {
+        display: block;
+    }
+
+    article:nth-child(1) > section > img {
+
+        width: 680px;
+        height: 870px;
+        margin-left: -170px;
+        margin-top: -215px;
+    }
+
+    article:nth-child(1) > section > div {
+
+        display: none;
+    }
+
+    article:nth-child(2) {
+
+        display: block;
+    }
+
+    article:nth-child(2) > section:nth-child(1)  {
+        margin: 10px 10px 10px 10px;
+        flex-basis:100%;
+        width: 88%;
+
+    }
+
+    article:nth-child(2) > section:nth-child(2)  {
+        flex-basis:100%;
+        margin: 10px 10px 10px 10px;
+        width:88%;
+    }
+
+
+}
+

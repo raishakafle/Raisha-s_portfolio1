@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*
+
+    Author's Name: Nihar Sadhu
+    student id: 0810177
+    Portfolio
+    Worked with Raisha Kafle
+
+*/
+
+  body {
+
+    font-size: 16px;
+
+  }
+  
+  nav {
+    background: #8B4513; 
+    font-family: "Moon", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 12px;
+    width: 50px;
+
+  }
+  
+  nav:before {
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.12));
+    bottom: 0;
+    content: "";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px
+  }
+  
+  nav li {
+    float: right;
+    list-style: none;
+  }
+  
+  nav a {
+    color: beige;
+    transition: color 80ms ease-out;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+  }
+  
+  nav a:hover,
+  nav a.is-active {
+    color: black;
+  }
+  
+  nav ul {
+    position: absolute;
+    right: 0px;
+    top: 700px;
+    transform: rotate(90deg);
+    transform-origin: right top;
+    white-space: nowrap;
+    width: 720px;
+  }
+
+  nav ul li{
+    padding-right: 10px;
+  }
