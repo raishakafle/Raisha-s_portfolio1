@@ -9,3 +9,8 @@ Next was giving appropriate css to the project.
 
 As I am trying to handle this project professionally I wanted to be precise of the different pages I would be working on and each page of css for all the individual css.
 
+After sorting out the individual css and also the individual styling for each the pages now I am starting to make changes to the css files.
+
+I nwanted to make this project a newspapery old schoool type of aesthetic and the fronting so I intend to follow a newspaper design poattern to it.
+
+I now am trying to add some images to it, I am using photoshop to edit and properly shape my photos to add intop the project.
